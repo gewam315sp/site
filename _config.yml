@@ -1,5 +1,7 @@
 title: Grupo Escoteiro Wellington A. Medeiros | 315 SP
 description: Site oficial do Grupo Escoteiro Wellington A. Medeiros
+baseurl: "/site"
+url: "https://gewam315sp.github.io"
 
 plugins:
   - jekyll-sitemap
