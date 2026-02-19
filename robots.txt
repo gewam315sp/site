@@ -1,0 +1,28 @@
+# Robots.txt para Grupo Escoteiro Wellington A. Medeiros - GE 315/SP
+# https://www.escoteiroamericana.org.br
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.escoteiroamericana.org.br/sitemap.xml
+
+# Páginas principais
+Allow: /index.html
+Allow: /movimento-escoteiro.html
+Allow: /nossa-historia.html
+Allow: /ramos.html
+Allow: /ramo-lobinho.html
+Allow: /ramo-escoteiro.html
+Allow: /ramo-senior.html
+Allow: /ramo-pioneiro.html
+Allow: /seja-voluntario.html
+Allow: /contato.html
+
+# Recursos estáticos
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+# Crawl-delay para evitar sobrecarga
+Crawl-delay: 1

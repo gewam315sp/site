@@ -1,0 +1,6 @@
+title: Grupo Escoteiro Wellington A. Medeiros | 315 SP
+description: Site oficial do Grupo Escoteiro Wellington A. Medeiros
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

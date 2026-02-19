@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <!-- ===== META TAGS BÁSICAS ===== -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- ===== SEO META TAGS ===== -->
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}" />
+    <meta
+      name="keywords"
+      content="escoteiros americana, grupo escoteiro americana sp, escotismo americana, atividades escoteiras, lobinho, escoteiro, senior, pioneiro, GE 315/SP, Wellington A. Medeiros"
+    />
+    <meta name="author" content="Grupo Escoteiro Wellington A. Medeiros" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.escoteiroamericana.org.br{{ page.url | default: '/' }}" />
+
+    <!-- ===== OPEN GRAPH / FACEBOOK ===== -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.escoteiroamericana.org.br{{ page.url | default: '/' }}" />
+    <meta property="og:title" content="{{ page.title | default: site.title }}" />
+    <meta property="og:description" content="{{ page.description | default: site.description }}" />
+    <meta property="og:image" content="https://www.escoteiroamericana.org.br/assets/logo_grupo.avif" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- ===== TWITTER CARD ===== -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://www.escoteiroamericana.org.br{{ page.url | default: '/' }}" />
+    <meta name="twitter:title" content="{{ page.title | default: site.title }}" />
+    <meta name="twitter:description" content="{{ page.description | default: site.description }}" />
+    <meta name="twitter:image" content="https://www.escoteiroamericana.org.br/assets/logo_grupo.avif" />
+
+    <!-- ===== FAVICON ===== -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.ico" />
+    <link rel="icon" type="image/avif" sizes="32x32" href="/assets/logo_grupo.avif" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon.ico" />
+
+    <!-- ===== FONTES E RESOURCE HINTS ===== -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+
+    <!-- Preload LCP image -->
+    <link rel="preload" as="image" href="/assets/home_lobinhos.avif" fetchpriority="high" />
+
+    <!-- Sistemas de fontes -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ===== FONT AWESOME ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ===== STYLESHEET ===== -->
+    <link rel="stylesheet" href="/css/style.min.css" />
+
+    <!-- ===== SCHEMA.ORG JSON-LD ===== -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Grupo Escoteiro Wellington A. Medeiros",
+        "alternateName": "GE 315/SP",
+        "url": "https://www.escoteiroamericana.org.br",
+        "logo": "https://www.escoteiroamericana.org.br/assets/logo_grupo.avif",
+        "description": "Grupo escoteiro em Americana, SP, promovendo desenvolvimento do caráter, cidadania e liderança em crianças e jovens.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua Abrahim Abraham, 1562",
+          "addressLocality": "Americana",
+          "addressRegion": "SP",
+          "postalCode": "13468-395",
+          "addressCountry": "BR"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+55-19-99790-5366",
+          "contactType": "customer service",
+          "areaServed": "BR",
+          "availableLanguage": "Portuguese"
+        },
+        "sameAs": ["https://www.facebook.com/gesp315", "https://www.instagram.com/gewam315sp"]
+      }
+    </script>
+  </head>
+  <body>
+    {% include header.html %}
+    <main>{{ content }}</main>
+    {% include footer.html %}
+    <script src="/js/main.min.js" defer></script>
+  </body>
+</html>

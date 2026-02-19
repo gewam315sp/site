@@ -1,0 +1,45 @@
+# Arquivos do sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Arquivos de editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.log
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Node modules (caso adicione no futuro)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Arquivos de build (caso adicione processo de build)
+dist/
+build/
+
+# Arquivos de ambiente
+.env
+.env.local
+
+# Backups
+backup/
+*.backup
