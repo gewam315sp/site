@@ -64,7 +64,7 @@
     />
 
     <!-- ===== STYLESHEET ===== -->
-    <link rel="stylesheet" href="/css/style.min.css" />
+    <link rel="stylesheet" href="{{ '/css/style.min.css' | relative_url }}" />
 
     <!-- ===== SCHEMA.ORG JSON-LD ===== -->
     <script type="application/ld+json">
@@ -99,6 +99,6 @@
     {% include header.html %}
     <main>{{ content }}</main>
     {% include footer.html %}
-    <script src="/js/main.min.js" defer></script>
+    <script src="{{ '/js/main.min.js' | relative_url }}" defer></script>
   </body>
 </html>
