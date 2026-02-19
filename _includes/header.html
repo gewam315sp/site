@@ -2,8 +2,14 @@
   <div class="container">
     <div class="header-content">
       <!-- Logo -->
-      <a href="/index.html" class="logo">
-        <img src="/assets/logo_grupo.avif" alt="Logo GE 315/SP" class="logo-img" width="608" height="608" />
+      <a href="{{ '/index.html' | relative_url }}" class="logo">
+        <img
+          src="{{ '/assets/logo_grupo.avif' | relative_url }}"
+          alt="Logo GE 315/SP"
+          class="logo-img"
+          width="608"
+          height="608"
+        />
         <div class="logo-text">
           <h1>GE Wellington A. Medeiros</h1>
           <p>315/SP - Americana</p>
@@ -12,12 +18,12 @@
 
       <!-- Navegação Desktop -->
       <nav class="nav-menu">
-        <a href="/index.html" class="nav-link">Início</a>
-        <a href="/movimento-escoteiro.html" class="nav-link">O Movimento</a>
-        <a href="/nossa-historia.html" class="nav-link">Nossa História</a>
-        <a href="/ramos.html" class="nav-link">Ramos</a>
-        <a href="/seja-voluntario.html" class="nav-link">Seja Voluntário</a>
-        <a href="/contato.html" class="nav-link">Contato</a>
+        <a href="{{ '/index.html' | relative_url }}" class="nav-link">Início</a>
+        <a href="{{ '/movimento-escoteiro.html' | relative_url }}" class="nav-link">O Movimento</a>
+        <a href="{{ '/nossa-historia.html' | relative_url }}" class="nav-link">Nossa História</a>
+        <a href="{{ '/ramos.html' | relative_url }}" class="nav-link">Ramos</a>
+        <a href="{{ '/seja-voluntario.html' | relative_url }}" class="nav-link">Seja Voluntário</a>
+        <a href="{{ '/contato.html' | relative_url }}" class="nav-link">Contato</a>
       </nav>
 
       <!-- Menu Toggle (Mobile) -->
