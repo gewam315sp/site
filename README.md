@@ -367,9 +367,9 @@ Alterações nestes arquivos afetam TODAS as páginas do site.
 
 ```html
 <!-- Encontre e altere: -->
-<a href="tel:+5519997905366">(19) 99790-5366</a>
+<a href="tel:+5519971152596">(19) 97115‑2596</a>
 <a href="mailto:gewellingtonmedeiros@gmail.com">gewellingtonmedeiros@gmail.com</a>
-<a href="https://wa.me/5519997905366">WhatsApp</a>
+<a href="https://wa.me/5519971152596">WhatsApp</a>
 ```
 
 ### 4. Adicionar Novas Imagens
