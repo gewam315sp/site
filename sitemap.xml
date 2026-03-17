@@ -7,7 +7,7 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  
+
   <!-- Sobre o Movimento Escoteiro -->
   <url>
     <loc>https://www.escoteiroamericana.org.br/movimento-escoteiro.html</loc>
@@ -15,7 +15,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  
+
   <!-- Nossa História -->
   <url>
     <loc>https://www.escoteiroamericana.org.br/nossa-historia.html</loc>
@@ -23,7 +23,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  
+
   <!-- Ramos (Página Principal) -->
   <url>
     <loc>https://www.escoteiroamericana.org.br/ramos.html</loc>
@@ -31,7 +31,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  
+
   <!-- Ramo Lobinho -->
   <url>
     <loc>https://www.escoteiroamericana.org.br/ramo-lobinho.html</loc>
@@ -39,7 +39,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
+
+  <!-- Guia de Boas-Vindas - Ramo Lobinho -->
+  <url>
+    <loc>https://www.escoteiroamericana.org.br/boas-vindas-lobinho.html</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
   <!-- Ramo Escoteiro -->
   <url>
     <loc>https://www.escoteiroamericana.org.br/ramo-escoteiro.html</loc>
@@ -47,7 +55,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
+
+  <!-- Guia de Boas-Vindas - Ramo Escoteiro -->
+  <url>
+    <loc>https://www.escoteiroamericana.org.br/boas-vindas-escoteiro.html</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
   <!-- Ramo Sênior -->
   <url>
     <loc>https://www.escoteiroamericana.org.br/ramo-senior.html</loc>
@@ -55,7 +71,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
+
+  <!-- Guia de Boas-Vindas - Ramo Sênior -->
+  <url>
+    <loc>https://www.escoteiroamericana.org.br/boas-vindas-senior.html</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
   <!-- Ramo Pioneiro -->
   <url>
     <loc>https://www.escoteiroamericana.org.br/ramo-pioneiro.html</loc>
@@ -63,7 +87,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
+
+  <!-- Guia de Boas-Vindas - Ramo Pioneiro -->
+  <url>
+    <loc>https://www.escoteiroamericana.org.br/boas-vindas-pioneiro.html</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
   <!-- Seja Voluntário -->
   <url>
     <loc>https://www.escoteiroamericana.org.br/seja-voluntario.html</loc>
@@ -71,7 +103,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  
+
   <!-- Contato -->
   <url>
     <loc>https://www.escoteiroamericana.org.br/contato.html</loc>

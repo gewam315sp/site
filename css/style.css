@@ -224,6 +224,48 @@ p {
   color: var(--cor-principal);
 }
 
+/* Dropdown Menu */
+.nav-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-dropdown .nav-link {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.nav-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-link {
+  color: var(--cor-texto);
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+  display: block;
+  transition: var(--transicao);
+  font-weight: 500;
+}
+
+.dropdown-link:hover {
+  background-color: var(--cor-cinza-claro);
+  color: var(--cor-principal);
+}
+
 .menu-toggle {
   display: none;
   flex-direction: column;
